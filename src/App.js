@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import VarnishingText from './VarnishingText';
 
 function App() {
   return (
@@ -16,10 +17,14 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React Now
         </a>
       </header>
+      <div className="App-content">
+        <VarnishingText text = "A handy assistant makes a happy magician." />
+      </div>
     </div>
+    
   );
 }
 
